@@ -14,5 +14,14 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
     return <div>Projet non trouvé</div>;
   }
 
-  return <ProjectDetails project={project} />;
+  // Ensure all required fields are present
+  const projectWithDefaults = {
+    ...project,
+    techniques: project.techniques || [],
+    materials: project.materials || [],
+    date: project.date || "",
+    duration: project.duration || ""
+  };
+
+  return <ProjectDetails project={projectWithDefaults} />;
 }

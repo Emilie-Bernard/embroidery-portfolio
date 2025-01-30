@@ -19,11 +19,11 @@ type Project = {
 };
 
 type ProjectDetailsProps = {
-  project: Project | undefined;
+  project: Project;
 };
 
 export default function ProjectDetails({ project }: ProjectDetailsProps) {
-  const [selectedImage, setSelectedImage] = useState(project?.images[0]);
+  const [selectedImage, setSelectedImage] = useState(project.images[0]);
 
   return (
     <main className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
@@ -42,14 +42,14 @@ export default function ProjectDetails({ project }: ProjectDetailsProps) {
             <div className="rounded-2xl w-[600px] h-[600px] overflow-hidden shadow-lg mb-4">
               <Image
                 src={selectedImage || ""}
-                alt={project?.title || ""}
+                alt={project.title || ""}
                 width={600}
                 height={600}
                 className="w-[600px] h-[600px] object-cover"
               />
             </div>
             <div className="grid grid-cols-4 gap-4">
-              {project?.images.map((image, index) => (
+              {project.images.map((image, index) => (
                 <button
                   key={index}
                   onClick={() => setSelectedImage(image)}
@@ -61,7 +61,7 @@ export default function ProjectDetails({ project }: ProjectDetailsProps) {
                     width={100}
                     height={100}
                     src={image}
-                    alt={`${project?.title} ${index + 1}`}
+                    alt={`${project.title} ${index + 1}`}
                     className="w-full h-auto object-cover aspect-square"
                   />
                 </button>
@@ -72,27 +72,27 @@ export default function ProjectDetails({ project }: ProjectDetailsProps) {
           {/* Project Details */}
           <div>
             <h1 className="text-4xl font-bold text-gray-900 mb-6">
-              {project?.title}
+              {project.title}
             </h1>
             <div className="flex items-center gap-6 text-gray-600 mb-8">
               <div className="flex items-center">
                 <Calendar className="w-5 h-5 mr-2" />
-                <span>{project?.date}</span>
+                <span>{project.date}</span>
               </div>
               <div className="flex items-center">
                 <Clock className="w-5 h-5 mr-2" />
-                <span>{project?.duration}</span>
+                <span>{project.duration}</span>
               </div>
             </div>
             <div className="prose prose-lg">
               <p className="text-gray-600 mb-6">
-                    {project?.description}
+                    {project.description}
               </p>
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">
                 Techniques
               </h2>
               <ul className="list-disc list-inside text-gray-600 mb-6">
-                {project?.techniques.map((technique, index) => (
+                {project.techniques.map((technique, index) => (
                   <li key={index}>{technique}</li>
                 ))}
               </ul>
@@ -100,7 +100,7 @@ export default function ProjectDetails({ project }: ProjectDetailsProps) {
                 Matériaux
               </h2>
               <ul className="list-disc list-inside text-gray-600">
-                {project?.materials.map((material, index) => (
+                {project.materials.map((material, index) => (
                   <li key={index}>{material}</li>
                 ))}
               </ul>
