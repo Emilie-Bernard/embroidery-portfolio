@@ -12,7 +12,7 @@ export default function Home() {
       <section className="px-4 py-12 sm:py-16 md:py-20 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="text-center">
           <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold tracking-tight text-gray-900">
-            Portfolio de Broderie - Emilie Bernard
+            Portefolio de Broderie - Emilie Bernard
           </h1>
           <p className="mt-4 md:mt-6 text-base md:text-lg leading-7 md:leading-8 text-gray-600 max-w-2xl mx-auto px-4">
             Bienvenue dans mon univers de broderie artisanale. Chaque création raconte une histoire unique à travers le fil et l&apos;aiguille.
