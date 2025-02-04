@@ -40,8 +40,8 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    slug: "mimosas",
-    title: "Mimosas",
+    slug: "mimosa",
+    title: "Mimosa",
     description: "Broder le mot Mimosa sur un pull cousu à la main. Le motif vient de l'Atelier By Martine, qui est à l'origine de l'encyclopédie de la broderie.",
     coverImage: "/images/mimosa/1.png",
     images: [
