@@ -304,12 +304,12 @@ export const projects: Project[] = [
     slug: "soleil-levant",
     title: "Soleil Levant",
     description: "Projet de fin de module 4. J'ai réalisé un motif géométrique traditionnel avec des fils DMC, des fils métaliques. Avec des couleurs pastels.",
-    coverImage: "/images/soleillevant/soleillevant-1.jpeg",
+    coverImage: "/images/soleillevant/soleillevant1.jpeg",
     images: [
-      "/images/soleillevant/soleillevant-1.jpeg",
-      "/images/soleillevant/soleillevant-2.jpeg",
-      "/images/soleillevant/soleillevant-3.jpeg",
-      "/images/soleillevant/soleillevant-4.jpeg",
+      "/images/soleillevant/soleillevant1.jpeg",
+      "/images/soleillevant/soleillevant2.jpeg",
+      "/images/soleillevant/soleillevant3.jpeg",
+      "/images/soleillevant/soleillevant4.jpeg",
     ],
     techniques: [
       "Couchure spirale",
@@ -337,11 +337,9 @@ export const projects: Project[] = [
     slug: "san-marco",
     title: "Broderie perle San Marco",
     description: "Broderie perle San Marco, coffret Artesane. J'ai réalisé cette broche perlé.",
-    coverImage: "/images/sanmarco/sanmarco-1.jpeg",
+    coverImage: "/images/sanmarco/sanmarco.jpeg",
     images: [
-      "/images/sanmarco/sanmarco-1.jpeg",
-      "/images/sanmarco/sanmarco-2.jpeg",
-      "/images/sanmarco/sanmarco-3.jpeg",
+      "/images/sanmarco/sanmarco.jpeg",
     ],
     techniques: [
       "Pose de perles",
