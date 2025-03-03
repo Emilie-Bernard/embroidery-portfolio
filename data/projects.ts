@@ -276,7 +276,7 @@ export const projects: Project[] = [
     slug: "traditionnel-2",
     title: "Traditionnel 2 - tapis de points",
     description: "Premier exercice du module 4. J'ai réalisé un tapis de points traditionnels avec des fils DMC. Il y avait les points fantaisies, dont les points de feston. Les points de bourrage et les points de couchure. Il y avait aussi une partie point de croix.",
-    coverImage: "/images/traditionnel2/1.jpeg",
+    coverImage: "/images/traditionnel2/traditionnel2-1.jpeg",
     images: [
       "/images/traditionnel2/traditionnel2-1.jpeg",
       "/images/traditionnel2/traditionnel2-2.jpeg",
@@ -304,12 +304,12 @@ export const projects: Project[] = [
     slug: "soleil-levant",
     title: "Soleil Levant",
     description: "Projet de fin de module 4. J'ai réalisé un motif géométrique traditionnel avec des fils DMC, des fils métaliques. Avec des couleurs pastels.",
-    coverImage: "/images/soleil-levant/1.jpeg",
+    coverImage: "/images/soleillevant/soleillevant-1.jpeg",
     images: [
-      "/images/soleil-levant/1.jpeg",
-      "/images/soleil-levant/2.jpeg",
-      "/images/soleil-levant/3.jpeg",
-      "/images/soleil-levant/4.jpeg",
+      "/images/soleillevant/soleillevant-1.jpeg",
+      "/images/soleillevant/soleillevant-2.jpeg",
+      "/images/soleillevant/soleillevant-3.jpeg",
+      "/images/soleillevant/soleillevant-4.jpeg",
     ],
     techniques: [
       "Couchure spirale",
@@ -337,11 +337,11 @@ export const projects: Project[] = [
     slug: "san-marco",
     title: "Broderie perle San Marco",
     description: "Broderie perle San Marco, coffret Artesane. J'ai réalisé cette broche perlé.",
-    coverImage: "/images/san-marco/1.jpeg",
+    coverImage: "/images/sanmarco/sanmarco-1.jpeg",
     images: [
-      "/images/san-marco/1.jpeg",
-      "/images/san-marco/2.jpeg",
-      "/images/san-marco/3.jpeg",
+      "/images/sanmarco/sanmarco-1.jpeg",
+      "/images/sanmarco/sanmarco-2.jpeg",
+      "/images/sanmarco/sanmarco-3.jpeg",
     ],
     techniques: [
       "Pose de perles",
