@@ -270,5 +270,89 @@ export const projects: Project[] = [
     ],
     date: "Janvier 2025",
     duration: "5 heures"
+  },
+  {
+    id: 11,
+    slug: "traditionnel-2",
+    title: "Traditionnel 2 - tapis de points",
+    description: "Premier exercice du module 4. J'ai réalisé un tapis de points traditionnels avec des fils DMC. Il y avait les points fantaisies, dont les points de feston. Les points de bourrage et les points de couchure. Il y avait aussi une partie point de croix.",
+    coverImage: "/images/traditionnel2/1.jpeg",
+    images: [
+      "/images/traditionnel2/traditionnel2-1.jpeg",
+      "/images/traditionnel2/traditionnel2-2.jpeg",
+      "/images/traditionnel2/traditionnel2-3.jpeg",
+      "/images/traditionnel2/traditionnel2-4.jpeg",
+      "/images/traditionnel2/traditionnel2-5.jpeg",
+    ],
+    techniques: [
+      "Point fantaisie : bouclette, surjeté, arête, vannerie, noeud, poste, feston, abeille",
+      "Point de bourrage : cordonnet, bourdon et plumetis",
+      "Point de couchure : turc, spirale, grille, gerbe, treillis",
+      "Point de croix : étoilé, diable, riz/croix double, hermine",
+    ],
+    materials: [
+      "Fil DMC",
+      "Toile de coton",
+      "Métier à broder",
+      "Fil de soie"
+    ],
+    date: "Février 2025",
+    duration: "8 heures"
+  },
+  {
+    id: 12,
+    slug: "soleil-levant",
+    title: "Soleil Levant",
+    description: "Projet de fin de module 4. J'ai réalisé un motif géométrique traditionnel avec des fils DMC, des fils métaliques. Avec des couleurs pastels.",
+    coverImage: "/images/soleil-levant/1.jpeg",
+    images: [
+      "/images/soleil-levant/1.jpeg",
+      "/images/soleil-levant/2.jpeg",
+      "/images/soleil-levant/3.jpeg",
+      "/images/soleil-levant/4.jpeg",
+    ],
+    techniques: [
+      "Couchure spirale",
+      "Plumetis",
+      "Passé à l'épargne",
+      "Point de rep",
+      "Point de treillis",
+      "Point de tige",
+      "Point de sable",
+      "Point turc",
+      "Point de cordonnet",
+      "Point de gerbe",
+      "Point arrière"
+    ],
+    materials: [
+      "Fil DMC",
+      "Fil métalique",
+      "Cordonnet"
+    ],
+    date: "Février 2025",
+    duration: "22 heures"
+  },
+  {
+    id: 13,
+    slug: "san-marco",
+    title: "Broderie perle San Marco",
+    description: "Broderie perle San Marco, coffret Artesane. J'ai réalisé cette broche perlé.",
+    coverImage: "/images/san-marco/1.jpeg",
+    images: [
+      "/images/san-marco/1.jpeg",
+      "/images/san-marco/2.jpeg",
+      "/images/san-marco/3.jpeg",
+    ],
+    techniques: [
+      "Pose de perles",
+      "Pose de paillettes",
+    ],
+    materials: [
+      "Fil à gant",
+      "Perles",
+      "Paillettes",
+    ],
+    date: "Février 2025",
+    duration: "4 heures"
   }
 ]; 
